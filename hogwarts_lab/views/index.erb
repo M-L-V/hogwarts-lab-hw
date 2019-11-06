@@ -1,0 +1,8 @@
+<h1> Student Roster: </h1>
+
+<% @students.each do |student| %>
+  <p> <b> First name:</b> <%= student.first_name %></p>
+  <p> <b> Last name:</b> <%= student.last_name %></p>
+  <p> <a href="hogwarts/<%= student.id %>"> Profile </a></p>
+  <hr/>
+<% end %>

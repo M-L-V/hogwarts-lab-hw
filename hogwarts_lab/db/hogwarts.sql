@@ -1,4 +1,4 @@
--- DROP TABLE houses;
+DROP TABLE houses;
 DROP TABLE students;
 
 CREATE TABLE students(
@@ -9,8 +9,8 @@ CREATE TABLE students(
   house VARCHAR(255)
 );
 
--- CREATE TABLE houses(
--- id SERIAL8 PRIMARY KEY,
--- name VARCHAR(255)
---
--- );
+CREATE TABLE houses(
+id SERIAL8 PRIMARY KEY,
+name VARCHAR(255)
+
+);
